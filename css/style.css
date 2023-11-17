@@ -187,6 +187,9 @@
     .nav-bar{
         display: none;
     }
+    .items{
+        grid-template-columns: repeat(1,1fr);
+    }
     #nav-bar-mobile-links{
         text-align: right;
         transition: 1s;
@@ -194,4 +197,28 @@
         text-decoration: none;
         font-size: 1.5rem;
     }
+    .first-text{
+        font-size: 7rem;
+    }
+    .container-4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .container-4 img{
+        width: 400px;
+        border-radius: 10%;
+    }
+    .container-4 .col-1{
+        padding: 20px;
+    }
+    .container-4 .col-1 h1{
+        font-size: 4rem;
+        margin: 40px auto;
+    }
+    .container-4 .col-1 p{
+        font-size: 1.3rem;
+    }
+
 }
