@@ -63,7 +63,6 @@
 .container-2{
     width: 80%;
     margin: 0 auto;
-    min-width: 200px;
 }
 .title{
     text-align: center;
@@ -191,7 +190,7 @@
         grid-template-columns: repeat(1,1fr);
     }
     #nav-bar-mobile-links{
-        text-align: right;
+        text-align: center;
         transition: 1s;
         transition-duration: 5s;
         text-decoration: none;
@@ -199,6 +198,10 @@
     }
     .first-text{
         font-size: 7rem;
+    }
+    .container-3{
+        padding: 0;
+        margin: 0;
     }
     .container-4{
         width: 100%;
@@ -225,5 +228,14 @@
     }
     .btn-comprar{
         margin: 10% 5% 0 5%;
+    }
+    .footer{    
+        width: 100%;
+        padding: auto;
+        margin: auto;
+        border-radius: 0px;
+    }
+    .container{
+        padding: 0 0;
     }
 }
