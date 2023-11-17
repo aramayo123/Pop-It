@@ -10,7 +10,7 @@
 .container{
     width: 80%;
     margin: 0 auto;
-    background-image: url("/img/background.png");
+    background-image: url("../img/background.png");
     background-size: cover; 
     background-position: center center; 
     border-radius: 10px; 
@@ -118,7 +118,7 @@
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr;
     height: 700px;
-    background-image: url("/img/bg-grid.png");
+    background-image: url("../img/bg-grid.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     justify-items: center;
