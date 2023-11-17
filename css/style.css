@@ -57,7 +57,7 @@
     cursor: pointer;
     width: auto;
     border-radius: 15px;
-    margin: 30px 100px 0 100px;
+    margin: 10% 15% 0 15%;
     font-family: 'Viga', sans-serif;
 }
 .container-2{
@@ -96,7 +96,7 @@
 .container-3 .items .item img{
     overflow-clip-margin: content-box;
     overflow: clip;
-    width: 200px;
+    width: 50%;
 }
 .item-title{
     text-align: center;
@@ -214,11 +214,16 @@
         padding: 20px;
     }
     .container-4 .col-1 h1{
-        font-size: 4rem;
+        font-size: 2rem;
         margin: 40px auto;
     }
     .container-4 .col-1 p{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
-
+    .item img{
+        margin: auto auto;
+    }
+    .btn-comprar{
+        margin: 10% 5% 0 5%;
+    }
 }
